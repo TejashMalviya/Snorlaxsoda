@@ -107,7 +107,7 @@ header h2{
 }
 .rock img:nth-child(2){
     position: absolute;
-    height: 35%;
+    height: 25%;
 right: -80;
     left: 0;
     bottom: -50;
@@ -117,9 +117,9 @@ right: -80;
 }
 .rock img:nth-child(3){
     position: absolute;
-    height:45%;
+    height:35%;
     right: -5vh;
-    size: 10vh;
+    size: 8vh;
     bottom: 25px;
     rotate: -00deg;
     transition: 0.7s;
