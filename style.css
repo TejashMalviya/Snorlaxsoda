@@ -101,7 +101,7 @@ header h2{
     height: 170px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -30px;
+    bottom: -40px;
     transition: 0.7s;
     z-index: 1;
 }
