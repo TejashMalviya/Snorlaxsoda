@@ -3,13 +3,23 @@
     padding: 0;
     margin: 0;
 }
+a{
+    min-height: 100vh;
+    margin: 0;
+    font-family: Poppins;
+    color: #dcd7d7;
+    background-color: #CDCDCD;
+    background-image: url('9397242.jpg');
+    text-decoration: wavy;
+}
 body{
     min-height: 100vh;
     margin: 0;
     font-family: Poppins;
-    color: #1e1e1e;
+    color: #dcd7d7;
     background-color: #CDCDCD;
     background-image: url('9397242.jpg');
+    text-decoration: wavy;
    
 }
 header{
@@ -36,12 +46,7 @@ header h2{
     position: relative;
 }
 
-.pokedex{
-    position: absolute;
-    text-align: center;
-    font-size: medium;
-    background-color: rgb(255, 255, 255);
-}
+
 
 .product{
     position: absolute;
@@ -102,17 +107,21 @@ header h2{
 }
 .rock img:nth-child(2){
     position: absolute;
-    height: 50%;
+    height: 45%;
+right: -80;
     left: 0;
-    bottom: 0;
+    bottom: -50;
+    transform: translateY(8%);
     transition: 0.7s;
+    
 }
 .rock img:nth-child(3){
     position: absolute;
-    height: 100%;
-    right: 0;
-    bottom: -100px;
-    rotate: -25deg;
+    height:65%;
+    right: -5vh;
+    size: 10vh;
+    bottom: 25px;
+    rotate: -00deg;
     transition: 0.7s;
 }
 .coke:has(.product:hover) .rock img:nth-child(1){
