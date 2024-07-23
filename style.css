@@ -100,7 +100,7 @@ header h2{
     position: absolute;
     height: 170px;
     left: 50%;
-    transform: translateX(-70%);
+    transform: translateX(-50%);
     bottom: 30px;
     transition: 0.7s;
     z-index: 1;
@@ -138,3 +138,4 @@ right: -80vh;
         width: 400px;
     }
 }
+
