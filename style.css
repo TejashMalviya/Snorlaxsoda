@@ -101,14 +101,14 @@ header h2{
     height: 170px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -40px;
+    bottom: 30px;
     transition: 0.7s;
     z-index: 1;
 }
 .rock img:nth-child(2){
     position: absolute;
-    height: 25%;
-right: -80;
+    height: 45%;
+right: -80vh;
     left: 0;
     bottom: -50;
     transform: translateY(8%);
@@ -117,11 +117,11 @@ right: -80;
 }
 .rock img:nth-child(3){
     position: absolute;
-    height:35%;
-    right: -5vh;
-    size: 8vh;
+    height:55%;
+    right: 3vh;
+    size: 10vh;
     bottom: 25px;
-    rotate: -00deg;
+    rotate: 10deg;
     transition: 0.7s;
 }
 .coke:has(.product:hover) .rock img:nth-child(1){
