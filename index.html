@@ -5,31 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnorlaxSoda</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-  <a href="https://tejashmalviya.github.io/pokecards/">PLAY</a>
-<header>
- 
- <div class="left">
-
- <h2>SnorlaxSoda</h2>
-   </div>
-</header>
-
-<div class="coke">
-  
- <div class="product">
- <div class="soda" style="--url: url(images.png)"></div>
- <div class="soda" style="--url: url(images1.png)"></div>
- </div>
-<div class="rock">
-     <img src="rock1.png" alt="">
-     <img src="pokemon-transparent-background-7.png" alt="">
-     <img src="pokemon-transparent-background-21 (1).png"  alt="">
-     
     
- </div>
-</div>
+    <a href="https://tejashmalviya.github.io/pokecards/">PLAY</a>
+    
+  
+    <header>
+        <div class="rain front-row"></div>
+        <div class="rain back-row"></div>
+        <div class="toggles">
+            <div class="splat-toggle toggle active">SPLAT</div>
+            <div class="back-row-toggle toggle active">BACK<br>ROW</div>
+            <div class="single-toggle toggle">SINGLE</div>
+          
+        </div>
+        <div class="left">
+            <h2 >SnorlaxSoda</h2>
+            <br>
+            <h5 style="text-align: right; color: rgb(253, 211, 0);">created by tejash</h5>
+        </div>
+    </header>
+
+    <div class="coke">
+        <div class="product">
+            <div class="soda" style="--url: url(images.png)"></div>
+            <div class="soda" style="--url: url(images1.png)"></div>
+        </div>
+        <div class="rock">
+            <img src="rock1.png" alt="">
+            <img src="pokemon-transparent-background-7.png" alt="">
+            <img src="pokemon-transparent-background-21 (1).png" alt="">
+        </div>
+    </div>
+    <audio id="background-music" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" loop></audio>
+    
+    <!-- Start Audio Button -->
+    <button id="play-sound" style="text-align: right;">Play Background Music</button>
+
+    <script>
+        document.getElementById('play-sound').addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            audio.play();
+        });
+
+        // Optional: Automatically trigger click to start audio (if allowed)
+        window.addEventListener('load', function() {
+            document.getElementById('play-sound').click();
+        });
+    </script>
 
 </body>
 </html>
+
