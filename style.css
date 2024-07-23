@@ -101,13 +101,13 @@ header h2{
     height: 170px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 30px;
+    bottom: -30px;
     transition: 0.7s;
     z-index: 1;
 }
 .rock img:nth-child(2){
     position: absolute;
-    height: 45%;
+    height: 35%;
 right: -80;
     left: 0;
     bottom: -50;
@@ -117,7 +117,7 @@ right: -80;
 }
 .rock img:nth-child(3){
     position: absolute;
-    height:65%;
+    height:45%;
     right: -5vh;
     size: 10vh;
     bottom: 25px;
