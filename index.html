@@ -11,7 +11,21 @@
 <body>
     
     <a href="https://tejashmalviya.github.io/pokecards/">PLAY</a>
+
+     <!-- Start Audio Button -->
+     <button id="play-sound" style="text-align:center; color: red; text-align: right;background-color: yellow;">Themesong</button>
     
+     <script>
+         document.getElementById('play-sound').addEventListener('click', function() {
+             var audio = document.getElementById('background-music');
+             audio.play();
+         });
+ 
+         // Optional: Automatically trigger click to start audio (if allowed)
+         window.addEventListener('load', function() {
+             document.getElementById('play-sound').click();
+         });
+     </script>
   
     <header>
         <div class="rain front-row"></div>
@@ -26,6 +40,7 @@
             <h2 >SnorlaxSoda</h2>
             <br>
             <h5 style="text-align: right; color: rgb(253, 211, 0);">created by tejash</h5>
+           
         </div>
     </header>
 
@@ -39,23 +54,14 @@
             <img src="pokemon-transparent-background-7.png" alt="">
             <img src="pokemon-transparent-background-21 (1).png" alt="">
         </div>
-    </div>
-    <audio id="background-music" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" loop></audio>
+        <audio id="background-music" src="13430_download_pokemon_theme_song_ringtone.mp3" loop></audio>
     
-    <!-- Start Audio Button -->
-    <button id="play-sound" style="text-align: right;">Play Background Music</button>
-
-    <script>
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var audio = document.getElementById('background-music');
-            audio.play();
-        });
-
-        // Optional: Automatically trigger click to start audio (if allowed)
-        window.addEventListener('load', function() {
-            document.getElementById('play-sound').click();
-        });
-    </script>
+        
+    </div>
+      
+   
+    
+<audio id="background-music" src="https://your-username.github.io/your-repository/path/to/your-audio-file.mp3" loop></audio>
 
 </body>
 </html>
